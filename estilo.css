@@ -1,0 +1,35 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+#calculadora{
+    display:inline;
+    flex-direction: column;
+}
+#info{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: blue;
+}
+#operaciones_unitarias{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+#operaciones_binarias{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+} */
+ button{
+    margin: 5px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    color: rgb(0, 255, 38);
+    background-color: blueviolet;
+    transform:scale(2);
+}
